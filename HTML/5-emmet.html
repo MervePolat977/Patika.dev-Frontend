@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>For the full documentation and video, see this page: </p>
+    <a href="https://app.patika.dev/courses/html/emmet-ile-daha-hizli-html-yapilari-olusturmak">Patika.dev-Emmet</a>
+
+    <!-- thissign will create a default html code: !-->
+
+    <!--
+        + : create lots of tags at the same time
+        > : go inside
+        * : multiplication
+        ^
+        lorem : default writings
+        . : class
+        # : id
+    -->
+
+    <!-- h1+h1 -->
+    <h1></h1>
+    <h1></h1>
+
+    <!-- h1+h3+h1+p+p+p -->
+    <h1></h1>
+    <h3></h3>
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <!-- h1+h3+h1+p*3 -->
+    <h1></h1>
+    <h3></h3>
+    <h1></h1>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <!--h3*2+p*5-->
+    <h3></h3>
+    <h3></h3>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <!-- ol>li -->
+    <ol>
+        <li></li>
+    </ol>
+
+    <!-- ol>li*4 -->
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <!-- ul>li*3>li*5 -->
+    <ul>
+        <li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </li>
+        <li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </li>
+        <li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </li>
+    </ul>
+
+    <!-- ul>li*3^p -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <p></p>
+
+    <!-- ul>li*3^p+h3*2+h1 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <p></p>
+    <h3></h3>
+    <h3></h3>
+    <h1></h1>
+
+
+    <!-- Lorem -->
+    <!-- p>lorem -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, enim deserunt nihil nam dicta rem repellendus natus libero sit placeat, repudiandae iure? Voluptates numquam velit dolorum incidunt repellat. Expedita, illum.</p>
+
+
+    <!-- p>lorem4 -->
+    <p>Lorem ipsum dolor sit.</p>
+
+    <!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+    <ul>
+        <li>Lorem.</li>
+        <li>Corporis?</li>
+        <li>Similique!</li>
+    </ul>
+    <p>Lorem ipsum dolor sit.</p>
+    <p>Eos adipisci iste rem!</p>
+    <h3>Lorem.</h3>
+
+
+
+
+    <!-- . : class -->
+    <!-- h3.deneme -->
+    <h3 class="deneme"></h3>
+
+    <!-- h3.deneme>lorem1 -->
+    <h3 class="deneme">Lorem.</h3>
+
+
+    <!-- # : id -->
+    <!-- h3#denemeID>lorem1 -->
+    <h3 id="denemeID">Lorem.</h3>
+
+    <!-- h3.deneme#denemeID>lorem1 -->
+    <h3 class="deneme" id="denemeID">Lorem.</h3>
+
+    <!-- h3#myID.myClass>lorem1 -->
+    <h3 id="myID" class="myClass">Lorem.</h3>
+
+    <!-- More than 1 class : Birden fazla class -->
+    <!-- h3.firstClass.secondClass>lorem3 -->
+    <h3 class="firstClass secondClass">Lorem, ipsum dolor.</h3>
+
+    <!-- h3.kodluyoruz.html -->
+    <h3 class="kodluyoruz html"></h3>
+
+
+
+    <!-- CREATING A DIV -->
+    <!-- .tepki -->
+    <div class="tepki"></div>
+
+    <!-- ul.tepki : will create li -->
+    <ul>
+        <li class="tepki"></li>
+    </ul>
+
+    <!-- ul>.tepki*3 -->
+    <ul>
+        <li class="tepki"></li>
+        <li class="tepki"></li>
+        <li class="tepki"></li>
+    </ul>
+
+    <!-- ul>.text-red*4 -->
+    <ul class="text-red"></ul>
+    <ul class="text-red"></ul>
+    <ul class="text-red"></ul>
+    <ul class="text-red"></ul>
+
+
+
+
+    <!-- WITHOUT USING $ : $ KULLANILMADAN -->
+    <!-- ul>li#idNo1+li#idNo2+li#idNo3 -->
+    <ul>
+        <li id="idNo1"></li>
+        <li id="idNo2"></li>
+        <li id="idNo3"></li>
+    </ul>
+    
+    <!-- USING $ -->
+    <!-- ul>li#No$*3 -->
+    <ul>
+        <li id="No1"></li>
+        <li id="No2"></li>
+        <li id="No3"></li>
+    </ul>
+
+
+    <!--  Sırada oluşturulan tagların içine text yazılması var:
+
+          Textlerimizi {} ifadesinin içine yazmamız yeterli: 
+          p{Emmet ile tag içine text yazma}
+    -->
+
+    <!-- p{Merhaba, ben Merve :D} -->
+    <p>Merhaba, ben Merve :D </p>
+
+    <!-- h1{Emmet Nedir?} -->
+    <h1>Emmet Nedir?</h1>
+
+
+
+
+
+
+
+
+    <!-- Example: ul tagı altında "item1 ,item2, item3, item4" classlarına sahip 4 adet li tagı oluşturmak istersek 
+        aşağıdakilerden hangisini yapmalıyız?-->
+    <!-- solution: ul>li.item$*4 -->
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+    </ul>
+
+
+    <!-- Example2: div tagı altında "item" id'sine sahip 10 kelimelik loremleri içeren 6 adet p tagı 
+        oluşturmak istersek aşağıdakilerden hangisini yapmalıyız?-->
+    <!--Solution2: div>p.item*6>lorem10 -->
+    <div>
+        <p class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, molestiae.</p>
+        <p class="item">Consectetur at eum, maiores eligendi commodi sequi nulla amet ex?</p>
+        <p class="item">Eum earum vero natus consequatur est delectus laudantium sed culpa!</p>
+        <p class="item">Itaque soluta recusandae voluptatibus obcaecati porro magnam praesentium qui ab?</p>
+        <p class="item">Deleniti quos fuga optio harum aliquid est non doloremque nobis.</p>
+        <p class="item">Voluptates obcaecati fugit nulla natus cupiditate. Tempore nihil vitae facere.</p>
+    </div>
+
+
+</body>
+</html>
