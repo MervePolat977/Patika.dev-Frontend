@@ -9,6 +9,18 @@ Bu repository'de Patika.dev'de Frontend patikasında aldığım eğitiğimi koda
  Her bir konu kolaydan zora ve mantık dahilinde klasörlenerek oluşturulmuştur.
  
  --- 
+ # Konular
+ A) HTML
+  - FirstPage/İlk sayfa
+  - Tags/Tag-etiket
+  - Comments/Yorum satırları
+  - Lists/listeler
+  - Emmet
+  - Images/Görsellerle çalışmak
+  - Links/Linkler
+  - HOMEWORKS/ÖDEV ÇÖZÜMLERİ
+ 
+ ---
  # Projeyi Çalıştırmak İçin  
  Repository'de *Code* -> *Download Zip* yaparak indirin.  
  Visual Studio Code'da projeyi açın.
